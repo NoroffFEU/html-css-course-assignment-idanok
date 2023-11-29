@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <title>Checkout page</title>
+</head>
+<body>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <header class="small-header">
+        <P>FREE SHIPPING ON ALL ITEMS</P>
+        <P>FREE SHIPPING ON ALL ITEMS</P>
+        <P>FREE SHIPPING ON ALL ITEMS</P>
+    </header>
+    <header>
+        <nav class="menu">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="listOfJackets.html">SHOP</a></li>
+            </ul>
+        </nav>
+        <a href="index.html">
+            <section class="logo">
+                <img src="img/logo.png">
+            </section>
+        </a>
+        <section class="icons">
+            <img src="img/search.png">
+            <img src="img/favorite.png">
+            <img src="img/person.png">
+            <img src="img/shoppingbag.png">
+        </section>
+    </header>
+    <hr class="header-line">
+    <div class="content"></div>
+
+    <div class="shipping-information-card">
+        <div class="shipping-information">
+            <h1>SHIPPING INFORMATION</h1>
+            <input placeholder="Full name:">
+            <input placeholder="Last name:">
+            <input placeholder="Email:">
+            <input placeholder="Phone number:">
+            <input placeholder="Country:">
+            <input placeholder="Street adress:">
+            <div class="horizontally-aligned">
+                <input placeholder="Postcode:">
+                <input placeholder="City:">
+            </div>
+        </div>
+    </div>
+    <div class="payment-method-card">
+        <h2>PAYMENT METHOD</h2>
+        <div class="credit-card-container">
+            <button>
+                <span>Credit card</span>
+                <img src="img/visa.png" class="card-image" alt="Visa icon">
+                <img src="img/mastercard.png" class="card-image" alt="Mastercard icon">
+            </button>
+        </div>
+            <div class="paypal-container">
+                <button>
+                    <span>Paypal</span>
+                    <img src="img/paypal.png" class="paypal-image" alt="PayPal icon">
+                </button>
+            </div>
+            <div class="klarna-container">
+                <button>
+                    <span>Klarna</span>
+                    <img src="img/klarna.png" class="klarna-image" alt="Klarna icon">
+                </button>
+            </div>
+    </div>
+        <div class="order-summary-card">
+            <div class="order-summary">
+                <h3>ORDER SUMMARY</h3>
+                <div class="horizontally-aligned">
+                    <p>Items</p>
+                    <div class="edit-cart-container">
+                        <img src="img/edit-cart.png">
+                        <p>Edit Cart</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rain-jacket">
+                <div class="rain-jacket-content">
+                    <img src="img/blue-jacket.jpg" class="rain-jacket-image">
+                    <div class="rain-jacket-details">
+                        <h4>AMAZE BOMBSHELL JACKET</h4>
+                        <p>$ 129.00</p>
+                        <p>Size: M</p>
+                        <p>Qty: 1</p>
+                    </div>
+                </div>
+            </div>
+        <div class="sub-total">
+            <p>Subtotal</p>
+            <p>$ 129.00</p>
+        </div>
+        <div class="order-total">
+            <p>Order total</p>
+            <p>$ 129.00</p>
+        </div>
+    </div>
+    <a href="checkout-success.html">
+        <button class="complete-order-button">COMPLETE ORDER</button>
+    </a>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="logo">
+                <img src="img/logo.png" alt="Footer Logo">
+            </div>
+            <div class="membership">
+                <h3>Become a member</h3>
+                <p>Sign up for our newsletter and<br>get special offers and discounts<br></p>
+                <div class="signup-container">
+                    <input placeholder="Email:">
+                    <button>Sign Up</button>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="img/instagram.png" alt="Icon 1"></a>
+                <a href="#"><img src="img/twitter.png" alt="Icon 2"></a>
+                <a href="#"><img src="img/tiktok.png" alt="Icon 3"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
